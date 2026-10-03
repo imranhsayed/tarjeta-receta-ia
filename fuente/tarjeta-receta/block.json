@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "recetaia/tarjeta-receta",
+	"version": "1.0.0",
+	"title": "Tarjeta de Receta con IA",
+	"category": "widgets",
+	"icon": "food",
+	"description": "Tarjeta interactiva de ingredientes: renderizada en el servidor desde el meta extraído por la IA y escalada en el cliente con la API de Interactividad.",
+	"keywords": [ "receta", "ia", "interactividad" ],
+	"usesContext": [ "postId" ],
+	"supports": {
+		"html": false,
+		"interactivity": true
+	},
+	"textdomain": "tarjeta-receta-ia",
+	"editorScript": "file:./editor.js",
+	"style": "file:./editor.css",
+	"render": "file:./renderizado.php",
+	"viewScriptModule": "file:./vista.js"
+}

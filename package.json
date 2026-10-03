@@ -1,0 +1,17 @@
+{
+	"name": "tarjeta-receta-ia",
+	"version": "1.0.0",
+	"description": "Demo de WordCamp: IA + Vínculos de Bloques + API de Interactividad.",
+	"author": "Imran Sayed",
+	"license": "GPL-2.0-or-later",
+	"scripts": {
+		"build": "wp-scripts build --experimental-modules --source-path=fuente --output-path=compilado",
+		"start": "wp-scripts start --experimental-modules --source-path=fuente --output-path=compilado",
+		"lint:js": "wp-scripts lint-js",
+		"plugin-zip": "wp-scripts plugin-zip"
+	},
+	"devDependencies": {
+		"@wordpress/browserslist-config": "^6.54.0",
+		"@wordpress/scripts": "^30.0.0"
+	}
+}

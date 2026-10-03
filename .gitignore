@@ -1,0 +1,44 @@
+# Cursor
+.cursor
+
+# Claude Code
+.claude
+CLAUDE.md
+prompt.md
+
+# Git worktrees
+.worktrees
+
+# Dependencies
+## Avoid any node_modules
+node_modules
+
+# Ignore temporary OS files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+.idea
+.claude
+ehthumbs.db
+Thumbs.db
+
+# Ignore backup and temporary files
+*.bak
+*.orig
+*.swp
+*~
+*.tmp
+.backup
+.backup-*
+
+/node_modules/
+
+## Ignore build related files.
+build/
+node_modules/
+
+# Ignore editor config
+.idea/
+.vscode/
+.cursor/
